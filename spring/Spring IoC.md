@@ -76,7 +76,7 @@
 - 为Bean实例设置属性
 - 调用Bean的初始化方法
 - 应用可以通过IoC容器使用Bean
-- 当容器关闭时，diaoyongBean的销毁方法
+- 当容器关闭时，调用Bean的销毁方法
   - 调用postProcessBeforeDestruction
   - 调用Bean的destroy方法
   - 调用Bean的自定义销毁方法
@@ -111,3 +111,4 @@
 - MessageSourceAware，在Bean中获取消息源
 - ApplicationEventPublisherAware，在Bean中获取应用上下文的事件发布器
 - ResourceLoaderAware，在Bean中获取ResourceLoder
+
